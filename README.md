@@ -2,11 +2,9 @@
 
 A backend systems engineering project built with NestJS, TypeScript, PostgreSQL, Redis, Prisma, Docker, and BullMQ.
 
-This project serves as a hands-on exploration of NestJS architecture while applying backend engineering concepts previously developed through production experience with Express.js and other backend frameworks.
+This project serves as a practical transition from Express.js-based backend development into the NestJS ecosystem while exploring more advanced backend engineering concepts.
 
-Beyond learning NestJS itself, the project focuses on deeper backend systems topics such as dependency injection, modular architecture, asynchronous processing, caching, queues, background workers, and scalable application design.
-
-The goal is to bridge framework knowledge with backend engineering principles and gain practical experience implementing patterns commonly found in modern production systems.
+The objective is not only to learn NestJS, but to apply existing backend development experience to a framework that emphasizes modular architecture, dependency injection, scalability, and maintainability. Along the way, the project explores asynchronous processing, caching, queues, background workers, and production-oriented system design.
 
 ## Tech Stack
 
@@ -30,16 +28,14 @@ The goal is to bridge framework knowledge with backend engineering principles an
 
 ## Project Goals
 
-- Apply existing backend engineering experience to the NestJS ecosystem
-- Develop a deeper understanding of NestJS architecture and design patterns
-- Explore Dependency Injection and Inversion of Control in practice
-- Design modular and maintainable backend systems
-- Implement asynchronous processing using BullMQ and Redis
-- Gain hands-on experience with background workers and job queues
-- Explore caching and performance optimization strategies
-- Understand distributed systems concepts at a practical level
-- Build production-style infrastructure using Docker and PostgreSQL
-- Document architectural decisions and engineering trade-offs
+- Apply existing backend engineering experience to NestJS
+- Develop a deeper understanding of Dependency Injection and Inversion of Control
+- Build modular and maintainable backend systems
+- Explore queue-based and asynchronous processing patterns
+- Implement background workers using BullMQ
+- Gain practical experience with Redis caching and messaging patterns
+- Understand production-style backend architecture
+- Explore scalability and reliability considerations in modern backend applications
 
 ## Current Features
 
@@ -57,9 +53,9 @@ The goal is to bridge framework knowledge with backend engineering principles an
 - Retry and failure handling
 - Rate limiting
 - Redis caching layer
-- Monitoring and logging
-- Event-driven architecture
-- Distributed processing patterns
+- Structured logging
+- Monitoring and observability
+- Event-driven workflows
 
 ## Project Structure
 
@@ -86,7 +82,6 @@ src/
 ```bash
 git clone <repository-url>
 cd media-orchestrator
-
 npm install
 ```
 
@@ -108,14 +103,21 @@ npx prisma migrate dev
 npm run start:dev
 ```
 
-## Learning Objectives
+## Learning Focus
 
-This repository serves as a hands-on exploration of:
+This repository is focused on understanding and implementing:
 
 - NestJS architecture
-- TypeScript backend development
+- Dependency Injection
+- Modular application design
 - PostgreSQL data modeling
 - Redis fundamentals
 - Queue systems with BullMQ
-- Distributed systems concepts
-- Backend scalability patterns
+- Background workers
+- Caching strategies
+- Scalable backend patterns
+- Production-oriented development practices
+
+```
+
+```
