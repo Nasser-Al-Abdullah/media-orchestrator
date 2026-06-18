@@ -61,12 +61,13 @@ The objective is not only to learn NestJS, but to apply existing backend develop
 
 ```text
 src/
-├── video/
-├── prisma/
-├── redis/
-├── queue/
-├── workers/
-└── common/
+├── infrastructure/   # Shared infrastructure services
+├── video/            # Video domain module
+├── app.module.ts
+└── main.ts
+
+prisma/               # Database schema and migrations
+test/                 # Integration and e2e tests
 ```
 
 ## Getting Started
